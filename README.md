@@ -167,23 +167,3 @@ To ensure the infrastructure is secure and functioning, perform the following ch
    * Ping the `203.0.113.1` address from an internal PC. It should fail due to Standard ACL 10.
    * Use `show access-lists` on the router to see hit counters incrementing.
 
-## 📁 Repository Contents
-* `Network_Topology_Security.pkt` - The main Cisco Packet Tracer file containing the complete lab setup.
-* `README.md` - This documentation file.
-
----
-
-### 💡 Text for your Portfolio Website
-*(Copy and paste this block into the projects section of your personal website)*
-
-**Project: Enterprise Network Security & DMZ Infrastructure**
-**Tech Stack:** Cisco IOS, VLANs, ACLs, Port Security, Cisco Packet Tracer
-
-**Overview:**
-Designed and simulated a highly secure enterprise network topology focusing on traffic segmentation and strict access controls. The architecture features a Demilitarized Zone (DMZ) isolating public-facing web servers from the internal corporate network.
-
-**Key Achievements:**
-* Implemented Layer 2 segmentation using VLANs (Management, Staff, Guest) with 802.1Q trunking and Router-on-a-Stick for inter-VLAN routing.
-* Configured a DMZ environment separated by a firewall router to securely expose web services without compromising internal network integrity.
-* Engineered Standard and Extended Access Control Lists (ACLs) to block malicious IP ranges and enforce strict HTTP/HTTPS traffic routing exclusively to the DMZ.
-* Hardened access-layer switches by deploying Port Security (Sticky MAC, Violation Shutdown) to completely mitigate unauthorized physical network access.
